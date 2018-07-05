@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'mvn install'
-                sh 'java -jar gs-maven-0.1.0.jar'
+                sh 'java -jar target/gs-maven-0.1.0.jar'
             }
         }
     }
